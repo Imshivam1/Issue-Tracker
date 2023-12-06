@@ -1,0 +1,10 @@
+<nav class="navbar navbar-expand-sm" style="background-color: #f0f0f0;">
+  <div class="container-fluid">
+      <a class="navbar-brand ms-4" href="/" style="font-weight: bold;"> Issue Tracker </a>
+      <% if (title === "Project Page") { %>
+          <button class="btn btn-primary me-2" style="font-size: 14px;">Create Issue</button>
+      <% } else { %>
+          <button class="btn btn-success me-2" style="font-size: 14px;">Create Project</button>
+      <% } %>
+  </div>
+</nav>
